@@ -8,3 +8,4 @@ let sisi = 3;
 
 console.log(luasSegitiga.hitungLuas(tinggi, alas));
 console.log(luasPersegi.hitungLuas(sisi));
+console.log(luasPersegi.hitungKeliling(sisi));
