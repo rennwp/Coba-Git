@@ -2,4 +2,8 @@ const hitungLuas = (sisi) => {
   return sisi * sisi;
 };
 
-module.exports = { hitungLuas };
+const hitungKeliling = (sisi) => {
+  return sisi * 4;
+};
+
+module.exports = { hitungLuas, hitungKeliling };
