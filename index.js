@@ -1,10 +1,10 @@
 const luasSegitiga = require("./luasSegitiga");
+const luasPersegi = require("./luasPersegi");
 
 let tinggi = 10;
 let alas = 5;
 
-let tinggi1 = 5;
-let alas1 = 3;
+let sisi = 3;
 
 console.log(luasSegitiga.hitungLuas(tinggi, alas));
-console.log(luasSegitiga.hitungLuas(tinggi1, alas1));
+console.log(luasPersegi.hitungLuas(sisi));
